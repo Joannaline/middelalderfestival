@@ -1,0 +1,14 @@
+
+.menu {
+    background-color: #284B55;
+    overflow: hidden;
+ }
+
+ .menu a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
