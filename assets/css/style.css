@@ -12,3 +12,8 @@
     text-decoration: none;
     font-size: 12px;
 }
+
+.menu a:hover {
+    background-color: #ffffff;
+    color: #284B55;
+}
