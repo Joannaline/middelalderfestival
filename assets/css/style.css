@@ -26,9 +26,20 @@ body {
 
 .banner {
   width: 100%;
+  
 }
 
-/*flex-box/Joanna*/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+/*flex-box brown/Joanna*/
 
 .flex-container {
   display: flex;
@@ -44,6 +55,7 @@ body {
   background-color: #A76B46;
   color: white;
   width: 100%;
+  height: 400px;
   text-align: center;
   line-height: 100%;
 }
@@ -97,7 +109,7 @@ body {
 
 
 
-
+/*flexbox green (commtens)*/
 
 .flex-container2 {
   display: flex;
@@ -105,24 +117,63 @@ body {
 }
 
 .box2 {
-  flex-grow: 1;
-  background-color: #B3C2BA;
-  color: white;
-  width: 100%;
-  text-align: center;
-  line-height: 100%;
-  font-size: 30px;
-}
-
-.box2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  background-color: #B3C2BA;
+  color: white;
+  line-height: 100%;
 }
 
-.img {
+
+.imag {
   width: 29%;
 }
+
+
+/*comments comtainer*/
+
+* {
+box-sizing: border-box;
+}
+.mySlides {
+  display: none;
+}
+
+.size {
+  height: 300px;
+  width: 300px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+/* Fading away */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 
 /*Timeline/Joanna*/
 
