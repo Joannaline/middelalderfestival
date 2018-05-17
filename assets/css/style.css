@@ -349,3 +349,74 @@ box-sizing: border-box;
   color: white;
   text-align: center;
 }
+
+
+/* underside - frivillig*/
+
+.flex-container-frivillig {
+  display: flex;
+  background-image: url("../images/vardemiddelalder.png");
+  height: 1000px;
+  background-position: center;
+
+}
+.flexbox-knap {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.knapper-frivillig1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 10px 66px;
+  line-height: 100%;
+  border-radius: 5px;
+  color: #284B55;
+  background-color: white;
+  border: none;
+
+}
+
+.knapper-frivillig1:hover {
+  background-color: #284B55;
+  color: white;
+}
+
+.knapper-frivillig2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 10px 47px;
+  line-height: 100%;
+  border-radius: 5px;
+  color: #284B55;
+  background-color: white;
+  border: none;
+}
+
+.knapper-frivillig2:hover {
+  background-color: #284B55;
+  color: white;
+}
+
+
+/* modal til undersiden frivillig og aktør*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: red;
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 40px;
+  border: none;
+  width: 70%;
+}
