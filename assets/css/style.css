@@ -5,10 +5,30 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+
+
+
+.flex-container3 {
+  display: flex;
+  align-items: stretch;
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+
 .menu {
+    flex: 1;
     background-color: #284B55;
     overflow: hidden;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+
+
 
  .menu a {
     float: left;
@@ -17,12 +37,22 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
+
 }
 
 .menu a:hover {
     background-color: #ffffff;
     color: #284B55;
 }
+
+.logo {
+  position: absolute;
+  width: 10%;
+}
+
+
+
+
 
 .banner {
   width: 100%;
@@ -36,6 +66,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 18px;
 }
 
 
@@ -51,7 +82,7 @@ body {
 }
 
 .box {
-  flex-grow: 1;
+  flex: 1;
   background-color: #A76B46;
   color: white;
   width: 100%;
@@ -117,6 +148,7 @@ body {
 }
 
 .box2 {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,6 +179,9 @@ box-sizing: border-box;
 }
 
 .slideshow-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
   position: relative;
   margin: auto;
 }
