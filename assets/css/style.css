@@ -13,7 +13,7 @@ body {
   align-items: stretch;
   position: absolute;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .menu {
@@ -37,7 +37,6 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
-
 }
 
 .menu a:hover {
@@ -47,7 +46,7 @@ body {
 
 .logo {
   position: absolute;
-  width: 10%;
+  width: 13%;
 }
 
 
