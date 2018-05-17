@@ -354,9 +354,8 @@ box-sizing: border-box;
 
 .flexcontainerfrivillig {
   display: flex;
-  background-image: url("../images/vardemiddelalder.png");
-  height: 1000px;
-  background-position: center;
+  align-items: center;
+
 
 }
 .flexboxknap {
