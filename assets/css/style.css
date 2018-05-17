@@ -318,19 +318,19 @@ box-sizing: border-box;
 
 /* underside - frivillig*/
 
-.flex-container-frivillig {
+.flexcontainerfrivillig {
   display: flex;
   background-image: url("../images/vardemiddelalder.png");
   height: 1000px;
   background-position: center;
 
 }
-.flexbox-knap {
+.flexboxknap {
   flex-grow: 1;
   text-align: center;
 }
 
-.knapper-frivillig1 {
+#myBtnone {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   padding: 10px 66px;
@@ -342,12 +342,12 @@ box-sizing: border-box;
 
 }
 
-.knapper-frivillig1:hover {
+#myBtnone:hover {
   background-color: #284B55;
   color: white;
 }
 
-.knapper-frivillig2 {
+#myBtntwo {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   padding: 10px 47px;
@@ -358,7 +358,7 @@ box-sizing: border-box;
   border: none;
 }
 
-.knapper-frivillig2:hover {
+#myBtntwo:hover {
   background-color: #284B55;
   color: white;
 }
@@ -368,20 +368,31 @@ box-sizing: border-box;
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   padding-top: 100px;
-  top: 0;
   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: red;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content {
-  background-color: white;
+  background-color: yellow;
   margin: auto;
   padding: 40px;
-  border: none;
   width: 70%;
+}
+
+.close {
+  color: red;
+  float: right;
+  font-size: 20px;
+}
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
