@@ -471,13 +471,13 @@ height: 200px;
 .box-program h2 {
   margin: auto;
 padding-top: 5%;
-padding-left: 7%;
+padding-left: 4.3%;
 font-size: 30px;
 font-family: 'Open Sans', sans-serif;
 }
 
 .box-program p {
-  padding-left: 7%;
+  padding-left: 4.3%;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 
@@ -485,7 +485,7 @@ font-family: 'Open Sans', sans-serif;
 
 .box-program a {
   color: #284B55;
-  
+
 
 }
 
