@@ -28,11 +28,7 @@ body {
   align-items: stretch;
   position: absolute;
   width: 100%;
-<<<<<<< HEAD
   margin-top: 70px;
-=======
-  margin-top: 50px;
->>>>>>> 1d8b0ebdaf919ea6f6b5935f05b3bf50b02e7246
 }
 
 .menu {
@@ -55,11 +51,8 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
-<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif;
-=======
 
->>>>>>> 1d8b0ebdaf919ea6f6b5935f05b3bf50b02e7246
 }
 
 .menu a:hover {
@@ -511,7 +504,7 @@ font-family: 'Open Sans', sans-serif;
 
 .box-program a {
   color: #284B55;
-  
+
 
 }
 
