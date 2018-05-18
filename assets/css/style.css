@@ -491,7 +491,7 @@ height: 200px;
   margin: auto;
 padding-top: 5%;
 padding-left: 4.3%;
-font-size: 30px;
+font-size: 50px;
 font-family: 'Open Sans', sans-serif;
 }
 
@@ -527,6 +527,7 @@ font-family: 'Open Sans', sans-serif;
   margin: auto;
 padding-top: 5%;
 padding-left: 4.3%;
-font-size: 30px;
+font-size: 50px;
 font-family: 'Open Sans', sans-serif;
+flex: 1;
 }
