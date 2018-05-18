@@ -466,15 +466,29 @@ height: 200px;
 .box-program {
   background-color: white;
   margin: 0;
+  padding-bottom: 5%;
 }
 .box-program h2 {
   margin: auto;
 padding-top: 5%;
 padding-left: 7%;
-padding-bottom: 5%;
 font-size: 30px;
 font-family: 'Open Sans', sans-serif;
 }
+
+.box-program p {
+  padding-left: 7%;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.box-program a {
+  color: #284B55;
+  
+
+}
+
 .programbillede {
   width: 100%;
 }
