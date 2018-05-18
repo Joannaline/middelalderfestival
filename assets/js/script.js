@@ -22,7 +22,7 @@ var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtnone");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
-    modal.style.display = "none";
+    modal.style.display = "block";
 }
 window.onclick = function(event) {
     if (event.target == modal) {
