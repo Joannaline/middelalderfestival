@@ -2,8 +2,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #DBDBDB;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+.top-right {
+  position: absolute;
+  height: 8%;
+  width: 10%;
+  top: 12px;
+  right: 16px;
+}
+
+
+.flagimg {
+  width: 20%;
+}
+
 
 
 
@@ -13,7 +28,7 @@ body {
   align-items: stretch;
   position: absolute;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .menu {
@@ -29,7 +44,6 @@ body {
 
 
 
-
  .menu a {
     float: left;
     color: #ffffff;
@@ -37,6 +51,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .menu a:hover {
@@ -64,8 +79,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #284B55;
   font-size: 18px;
+}
+
+.ornament {
+  width: 5%;
 }
 
 
