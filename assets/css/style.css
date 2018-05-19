@@ -519,7 +519,7 @@ body {
 height: 200px;
 }
 .box-program {
-  background-color: white;
+  background-color: #DBDBDB;
   margin: 0;
   padding-bottom: 5%;
 }
@@ -527,23 +527,75 @@ height: 200px;
   margin: auto;
 padding-top: 5%;
 padding-left: 4.3%;
-font-size: 30px;
+font-size: 50px;
 font-family: 'Open Sans', sans-serif;
+color: #284B55;
 }
 
 .box-program p {
   padding-left: 4.3%;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .box-program a {
   color: #284B55;
-
-
 }
 
 .programbillede {
   width: 100%;
+}
+
+/* underside kontakt, Anette*/
+
+.flexcontainerkontakt {
+  display: flex;
+  background-color: #DBDBDB;
+}
+
+.flexboxkontakt {
+  flex: 1;
+}
+
+.kort {
+  width: 100%;
+}
+.flexboxkontakt h2 {
+  margin: auto;
+padding-top: 10%;
+padding-left: 8.6%;
+padding-bottom: 9%;
+font-size: 50px;
+font-family: 'Open Sans', sans-serif;
+flex: 1;
+color: #284B55;
+}
+
+.flexcontainerknt {
+  display: flex;
+}
+.flexboxkntbilleder {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.kntbilleder {
+  width: 60%;
+  padding-bottom: 15%;
+  border-radius: 100%;
+}
+
+.flexboxknttekst {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  font-size: 15px;
+  justify-content: center;
+  color: #284B55;
+}
+.flexboxknttekst1 {
+  display: flex;
+  flex: 1;
+  padding-top: 6%;
 }
