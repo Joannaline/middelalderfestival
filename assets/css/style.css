@@ -5,6 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /*Flag ved menu*/
 .top-right {
@@ -317,6 +321,7 @@ body {
 .content {
   padding: 20px 30px;
   background-color: #5F737C;
+  color: #ffffff;
   position: relative;
   border-radius: 6px;
 }
@@ -353,6 +358,14 @@ body {
     left: 0%;
   }
 }
+
+.imagestl {
+  vertical-align: middle;
+  width: 39%;
+  border-radius: 5%;
+}
+
+
 
 /*footer m. info/flexbox*/
 .flex-footer {
