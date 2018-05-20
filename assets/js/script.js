@@ -15,17 +15,33 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000); 
+    setTimeout(showSlides, 10000);
 }
 
+//frivillig modal
+
+/* Definering af modal*/
 var modal = document.getElementById('myModal');
+
+/* definering af knappen der åbner modalen*/
 var btn = document.getElementById("myBtnone");
+
+/* span elementer(krydset oppe i hjørnet)(html) der lukker modalen*/
 var span = document.getElementsByClassName("close")[0];
+
+/* funktionen der gør at når man trykker på knappen så åbner modalen*/
 btn.onclick = function() {
     modal.style.display = "block";
 }
+
+/* når man trykker på X (span element), så lukker modalen*/
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+/* når man trykker uden for modalen så lukker modalen ned*/
 window.onclick = function(event) {
     if (event.target == modal) {
-      modal.style.display = "none";
+        modal.style.display = "none";
     }
 }
