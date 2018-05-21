@@ -112,12 +112,24 @@ top: 119px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #284B55;
-  font-size: 18px;
   font-family: 'riseofkingdom.ttf';
+}
+
+.hero-text h1 {
+font-size: 60px;
+}
+
+.dato {
+  font-size: 32px;
 }
 
 .ornament {
   width: 5%;
+}
+
+.slogan {
+
+
 }
 
 
