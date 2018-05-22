@@ -51,7 +51,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     z-index: 50;
 
@@ -87,7 +87,7 @@ body {
 
 .banner {
   width: 100%;
-  margin-top: 70px;
+  height: 170vh;
 }
 
 .forsideheader {
@@ -124,6 +124,7 @@ top: 119px;
   transform: translate(-50%, -50%);
   color: #284B55;
   font-family: 'riseofkingdom.ttf';
+  margin-top: 100px;
 }
 
 .hero-text h1 {
@@ -297,7 +298,6 @@ height: 550px;
 
 body * {
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 
@@ -324,7 +324,7 @@ body * {
 
 /* Container around content */
 .container {
-  padding: 10px 30px;
+  padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -430,20 +430,16 @@ body * {
   }
 }
 
+
 .imagestimeline {
   float: left;
-  width: 39%;
+  width: 28%;
   border-radius: 5%;
-  margin-right: 50px;
+  margin-right: 20px;
 }
-
-
-
-
 .clear {
   clear: both;
 }
-
 
 /*footer m. info/flexbox*/
 .flex-footer {
