@@ -584,6 +584,29 @@ body * {
   padding-top: 1%;
 }
 
+.second-modal-content {
+  background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: 70%;
+}
+
+.second-modal-content h2 {
+  padding-left: 8%;
+  padding-top: 7%;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.second-modal-content ul {
+  padding-bottom: 50px;
+  padding-left: 15%;
+}
+
+.second-modal-content p {
+  padding-left: 8.3%;
+}
+
 .billederfri {
   width: 29%;
 }
@@ -637,6 +660,17 @@ body * {
   padding-right: 8%;
   padding-bottom: 10%;
   font-size: 16px;
+}
+
+.checkboxes-aktør {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+}
+
+.ansøgning h4 {
+  font-size: 26px;
+  margin-bottom: 2%;
 }
 
 .knap-ansøg {

@@ -22,7 +22,7 @@ function showSlides() {
 }
 
 
-//frivillig modal
+/*frivillig modal*/
 
 /* Definering af modal*/
 var modal = document.querySelector('#myModal');
@@ -51,5 +51,36 @@ btn.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+}
+
+/*aktør-model*/
+
+/* Definering af modal*/
+var modaln = document.querySelector('#myModaltwo');
+
+/* definering af knappen der åbner modalen*/
+var btnn = document.querySelector("#myBtntwo");
+
+/* span elementer(krydset oppe i hjørnet)(html) der lukker modalen*/
+var spann = document.querySelector(".close");
+
+if(spann !== null)
+{
+  /* når man trykker på X (span element), så lukker modalen*/
+  spann.onclick = function() {
+      modaln.style.display = "none";
+  }
+}
+
+/* funktionen der gør at når man trykker på knappen så åbner modalen*/
+btnn.onclick = function() {
+    modaln.style.display = "block";
+}
+
+/* når man trykker uden for modalen så lukker modalen ned*/
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modaln.style.display = "none";
     }
 }
