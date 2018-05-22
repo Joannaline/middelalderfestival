@@ -39,7 +39,7 @@ var span = document.querySelectorAll(".close");
 
 if(span !== null)
 {
-  
+  // for(var span = 0; )
   /* når man trykker på X (span element), så lukker modalen*/
   span.onclick = function() {
       modal.style.display = "none";
@@ -88,4 +88,8 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modaltwo.style.display = "none";
     }
+}
+/*Pop-up - Alert- tak for din ansøgning*/
+function myFunction() {
+  alert("Tak for din ansøgning!");
 }
