@@ -51,7 +51,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     z-index: 50;
 
@@ -298,6 +298,7 @@ height: 550px;
 
 body * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 
