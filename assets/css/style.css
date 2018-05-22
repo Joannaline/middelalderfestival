@@ -47,7 +47,7 @@ body {
 
 
  .menu a {
-       float: left;
+    float: left;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
@@ -63,13 +63,13 @@ body {
     color: #284B55;
 }
 
+
 .logolink {
   display: flex;
   justify-content: center;
   position: absolute;
   top: 30px;
   height: 190px;
-
   width: 100%;
 }
 
@@ -102,7 +102,6 @@ top: 119px;
   top: 119px;
   right: 0px;
 
-
 }
 
 .hero-text {
@@ -116,7 +115,8 @@ top: 119px;
 }
 
 .hero-text h1 {
-font-size: 60px;
+  font-size: 60px;
+  white-space: nowrap;
 }
 
 .dato {
@@ -156,7 +156,6 @@ font-size: 60px;
   line-height: 100%;
   height: 52vh;
 
-
 }
 
 .images {
@@ -167,8 +166,9 @@ font-size: 60px;
   color: white;
   font-size: 12px;
   position: absolute;
-  text-align: center;
-
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hover {
@@ -214,7 +214,6 @@ font-size: 60px;
   display: flex;
   align-items: stretch;
   background-color: #B3C2BA;
-
 }
 
 
@@ -228,8 +227,6 @@ color: white;
 width: 100%;
 height: 550px;
 }
-
-
 
 .imag {
   width: 39%;
@@ -281,14 +278,19 @@ height: 550px;
 
 /*Timeline*/
 
-* {
+body * {
   box-sizing: border-box;
 }
+
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 400px;
+  margin-bottom: 200px;
+
 }
 
 .timeline::after {
@@ -296,8 +298,8 @@ height: 550px;
   position: absolute;
   width: 6px;
   background-color: #5F737C;
-  top: 0;
-  bottom: 0;
+  top: -400px;
+  bottom: -200px;
   left: 50%;
   margin-left: -3px;
 }
@@ -308,6 +310,7 @@ height: 550px;
   position: relative;
   background-color: inherit;
   width: 50%;
+
 }
 
 /* The circles */
@@ -374,6 +377,7 @@ height: 550px;
   color: #ffffff;
   position: relative;
   border-radius: 6px;
+  clear: both;
 }
 
 
@@ -409,12 +413,15 @@ height: 550px;
   }
 }
 
-.imagestl {
-  vertical-align: middle;
+.imagestimeline {
+  float: left;
   width: 39%;
   border-radius: 5%;
 }
 
+.clear {
+  clear: both;
+}
 
 
 /*footer m. info/flexbox*/
