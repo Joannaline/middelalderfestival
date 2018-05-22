@@ -575,6 +575,7 @@ body * {
   background-color: rgba(0,0,0,0.4);
   max-height: calc(100vh);
   overflow-y: auto;
+  z-index: 1;
 }
 
 .modal-content {
