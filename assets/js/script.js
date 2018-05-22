@@ -38,9 +38,9 @@ var span = document.querySelectorAll(".close");
 
 if(span !== null)
 {
+  
   /* når man trykker på X (span element), så lukker modalen*/
   span.onclick = function() {
-    console.log("ladida");
       modal.style.display = "none";
   }
 }
@@ -61,30 +61,30 @@ window.onclick = function(event) {
 /*aktør-model*/
 
 /* Definering af modal*/
-var modaln = document.querySelector('#myModaltwo');
+var modaltwo = document.querySelector('#myModaltwo');
 
 /* definering af knappen der åbner modalen*/
-var btnn = document.querySelector("#myBtntwo");
+var btntwo = document.querySelector("#myBtntwo");
 
 /* span elementer(krydset oppe i hjørnet)(html) der lukker modalen*/
-var spann = document.querySelector(".close");
+var spantwo = document.querySelector(".close");
 
-if(spann !== null)
+if(spantwo !== null)
 {
   /* når man trykker på X (span element), så lukker modalen*/
-  spann.onclick = function() {
+  spantwo.onclick = function() {
       modaln.style.display = "none";
   }
 }
 
 /* funktionen der gør at når man trykker på knappen så åbner modalen*/
-btnn.onclick = function() {
-    modaln.style.display = "block";
+btntwo.onclick = function() {
+    modaltwo.style.display = "block";
 }
 
 /* når man trykker uden for modalen så lukker modalen ned*/
 window.onclick = function(event) {
     if (event.target == modal) {
-        modaln.style.display = "none";
+        modaltwo.style.display = "none";
     }
 }
