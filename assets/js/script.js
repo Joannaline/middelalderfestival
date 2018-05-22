@@ -34,12 +34,13 @@ var modal = document.querySelector('#myModal');
 var btn = document.querySelector("#myBtnone");
 
 /* span elementer(krydset oppe i hjørnet)(html) der lukker modalen*/
-var span = document.querySelector(".close");
+var span = document.querySelectorAll(".close");
 
 if(span !== null)
 {
   /* når man trykker på X (span element), så lukker modalen*/
   span.onclick = function() {
+    console.log("ladida");
       modal.style.display = "none";
   }
 }
