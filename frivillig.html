@@ -62,33 +62,120 @@
 
                         <div class="flex-container">
                                 <div class="box">
-                                      <img class="billederfri" src="assets/images/autencitet.png"/>
-                                      <div class="hover">
-                                        <div class="text">info her</div>
-                                      </div>
+                                      <img class="billederfri" src="assets/images/madlavning.png"/>
+
                                   </div>
                                 <div id="bcolor" class="box">
-                                      <img class="billederfri" src="assets/images/vidensdeling.png"/>
-                                      <div class="hovercolor">
-                                        <div class="text">info her</div>
-                                      </div>
+                                      <img class="billederfri" src="assets/images/kost.png"/>
                                 </div>
+
                                 <div class="box">
-                                      <img class="billederfri" src="assets/images/fællesskab.png"/>
-                                      <div class="hover">
-                                        <div class="text">info her</div>
-                                      </div>
+                                      <img class="billederfri" src="assets/images/arm.png"/>
                                 </div>
                               </div>
 
                               <div class="ansøgning">
                                   <h3>Ansøgning</h3>
+
+                                  <p><i>Udfyld denne blanket:</i></p>
+
+                                    <div class="navne">
+                                        <input type="text" name="Fullname" placeholder="Fulde navn..." class="fuldenavn"></br></br>
+                                        <input type="text" name="Fødselsdato" placeholder="Fødselsdato..." class="fuldenavn"></br></br>
+                                        <input type="text" name="Adresse" placeholder="Adresse..." class="adresse">
+                                        <input type="text" name="Postnr. & By" placeholder="Postnr. & By..." class="by">
+                                    </div>
+
+                                    <div class="checkboxes">
+                                        <h4>Kompetencer:</h4>
+                                        <input type="checkbox" name="Rengøring" value="Rengøring">
+                                        <label for="Rengøring">Rengøring</label></br>
+
+                                        <input type="checkbox" name="Madlavning" value="Madlavning">
+                                        <label for="Madlavning">Madlavning</label></br>
+
+                                        <input type="checkbox" name="Håndværker-opgaver" value="Håndværker-opgaver">
+                                        <label for="Rengøring">Håndværker-opgaver</label></br>
+
+                                        <input type="checkbox" name="Håndværker-opgaver" value="Håndværker-opgaver">
+                                        <label for="Rengøring">Håndværker-opgaver</label></br>
+
+                                        <input type="checkbox" name="Andet" value="Andet">
+                                        <label for="Andet">Andet</label>
+                                         <input type="text" name="andet" placeholder="Skriv gerne...">
+                                    </div>
+                                    <div class="knap-ansøg-box">
+                                      <button class="knap-ansøg" type="button" name="button">Ansøg</button>
+                                  </div>
                               </div>
                      </div>
 
                </div>
 
     </header>
+
+    <!--Modal aktør-->
+
+    <div id="myModaltwo" class="modal">
+
+                     <div class="second-modal-content">
+                         <span class="close">&times;</span>
+                         <h2>BLIV AKTØR</h2>
+                        <p>Hvis du gerne vil opstille en bod er der nogle krav du skal opfylde:</p>
+                        <ul>
+                          <li>Være autentisk:</li></br>
+                          <li>Udklædning</li></br>
+                          <li>Mad og drikke</li></br>
+                          <li>Bod/telt</br><i>OBS, det er okay at servere kaffe, saft og pøler mm. ved mere information send mail til lmik@varde.dk </i></li></br>
+                        </ul>
+
+                        <div class="flex-container">
+                                <div class="box">
+                                      <img class="billederfri" src="assets/images/tøj.png"/>
+                                  </div>
+                                <div id="bcolor" class="box">
+                                      <img class="billederfri" src="assets/images/mad.png"/>
+                                </div>
+
+                                <div class="box">
+                                      <img class="billederfri" src="assets/images/telt.png"/>
+                                </div>
+                              </div>
+
+                              <div class="ansøgning">
+                                  <h3>Ansøgning</h3>
+                                  <p><i>Udfyld denne blanket:</i></p>
+
+                                  <div class="navne">
+                                      <input type="text" name="Fullname" placeholder="Fulde navn..." class="fuldenavn"></br></br>
+                                      <input type="text" name="Fødselsdato" placeholder="Fødselsdato..." class="fuldenavn"></br></br>
+                                      <input type="text" name="Adresse" placeholder="Adresse..." class="adresse">
+                                      <input type="text" name="Postnr. & By" placeholder="Postnr. & By..." class="by">
+                                  </div>
+
+                                  <div class="checkboxes">
+                                      <h4>Hvilken type bod:</h4>
+                                      <input type="checkbox" name="Mad og drikke" value="Mad og drikke">
+                                      <label for="Mad og drikke">Mad og drikke:</label><br>
+                                      <input class="checkboxes-aktør" type="text" name="andet" placeholder="Skriv gerne, hvilken slags mad og drikke..."><br><br>
+
+                                      <input type="checkbox" name="Autentiske ting" value="Autentiske ting">
+                                      <label for="Autentiske ting">Autentiske ting:</label><br>
+                                      <input class="checkboxes-aktør" type="text" name="andet" placeholder="Skriv gerne, hvad du sælger..."></br><br>
+
+                                      <input type="checkbox" name="Andet" value="Andet">
+                                      <label for="Andet">Andet:</label><br>
+                                      <input class="checkboxes-aktør" type="text" name="andet" placeholder="Skriv gerne...">
+                                  </div>
+
+                                  <div class="knap-ansøg-box">
+                                    <button class="knap-ansøg" type="button" name="button">Ansøg</button>
+                                  </div>
+                            </div>
+
+                     </div>
+
+               </div>
 
     <!--footer w. social icon-->
     <footer>
