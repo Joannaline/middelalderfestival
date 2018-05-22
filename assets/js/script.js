@@ -35,7 +35,7 @@ btn.onclick = function() {
 }
 
 /* når man trykker på X (span element), så lukker modalen*/
-span.onclick = function() {
+/span.onclick = function() {
     modal.style.display = "none";
 }
 
