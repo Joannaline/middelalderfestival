@@ -51,7 +51,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     z-index: 50;
 
@@ -298,7 +298,6 @@ height: 550px;
 
 body * {
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 
@@ -325,7 +324,7 @@ body * {
 
 /* Container around content */
 .container {
-  padding: 10px 30px;
+  padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -431,20 +430,16 @@ body * {
   }
 }
 
+
 .imagestimeline {
   float: left;
-  width: 39%;
+  width: 28%;
   border-radius: 5%;
-  margin-right: 50px;
+  margin-right: 20px;
 }
-
-
-
-
 .clear {
   clear: both;
 }
-
 
 /*footer m. info/flexbox*/
 .flex-footer {
