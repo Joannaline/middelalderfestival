@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DBDBDB;
+   background-color: #DBDBDB;
 }
 
 
@@ -306,7 +306,7 @@ body * {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 400px;
+  margin-top: 250px;
   margin-bottom: 200px;
 
 }
@@ -316,7 +316,7 @@ body * {
   position: absolute;
   width: 6px;
   background-color: #5F737C;
-  top: -400px;
+  top: -250px;
   bottom: -200px;
   left: 50%;
   margin-left: -3px;
@@ -397,6 +397,10 @@ body * {
   border-radius: 6px;
 }
 
+.content h2 {
+  font-family: 'riseofkingdom.ttf';
+  text-align: left;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -433,9 +437,9 @@ body * {
 
 .imagestimeline {
   float: left;
-  width: 28%;
+  width: 29%;
   border-radius: 5%;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 .clear {
   clear: both;
@@ -512,7 +516,7 @@ body * {
 
 .flexcontainerfrivillig {
   display: flex;
-  background-image: url("../images/vardemiddelalder.png");
+  background-image: url("../images/undersidebanner.jpg");
   height: 825px;
   background-position: center;
   align-items: center;
@@ -529,15 +533,15 @@ body * {
   padding: 10px 66px;
   line-height: 100%;
   border-radius: 5px;
-  color: #284B55;
-  background-color: white;
+  color: white;
+  background-color: #284B55;
   border: none;
 
 }
 
 #myBtnone:hover {
-  background-color: #284B55;
-  color: white;
+  background-color: white;
+  color: #284B55;
 }
 
 #myBtntwo {
@@ -546,14 +550,14 @@ body * {
   padding: 10px 47px;
   line-height: 100%;
   border-radius: 5px;
-  color: #284B55;
-  background-color: white;
+  color: white;
+  background-color: #284B55;
   border: none;
 }
 
 #myBtntwo:hover {
-  background-color: #284B55;
-  color: white;
+  background-color: white;
+  color: #284B55;
 }
 
 
@@ -715,7 +719,7 @@ body * {
 /*underside - program - Anette*/
 .cover {
   width: 100%;
-height: 200px;
+  height: 170px;
 }
 .box-program {
   background-color: #DBDBDB;
