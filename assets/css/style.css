@@ -171,6 +171,11 @@ top: 119px;
   transform: translate(-50%, -50%);
 }
 
+.textafter p {
+  font-size: 15px;
+  line-height: normal;
+}
+
 .hover {
   position: absolute;
   top: 0;
@@ -377,7 +382,6 @@ body * {
   color: #ffffff;
   position: relative;
   border-radius: 6px;
-  clear: both;
 }
 
 
@@ -417,7 +421,11 @@ body * {
   float: left;
   width: 39%;
   border-radius: 5%;
+  margin-right: 50px;
 }
+
+
+
 
 .clear {
   clear: both;
