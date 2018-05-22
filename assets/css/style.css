@@ -51,7 +51,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     z-index: 50;
 
@@ -297,6 +297,7 @@ height: 550px;
 
 body * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 
@@ -323,7 +324,7 @@ body * {
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
+  padding: 10px 30px;
   position: relative;
   background-color: inherit;
   width: 50%;
