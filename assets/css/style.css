@@ -87,6 +87,18 @@ body {
 
 .banner {
   width: 100%;
+  margin-top: 70px;
+}
+
+.forsideheader {
+  width: 100%;
+  height: 800px;
+
+}
+
+.undersiderheader {
+  width 100%;
+  height: 200px;
 }
 
 .bruneflagleft {
