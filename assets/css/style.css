@@ -87,7 +87,7 @@ body {
 
 .banner {
   width: 100%;
-  margin-top: 70px;
+  height: 170vh;
 }
 
 .forsideheader {
@@ -124,6 +124,7 @@ top: 119px;
   transform: translate(-50%, -50%);
   color: #284B55;
   font-family: 'riseofkingdom.ttf';
+  margin-top: 100px;
 }
 
 .hero-text h1 {
