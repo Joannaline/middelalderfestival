@@ -5,7 +5,7 @@ function showSlides() {
     var slides = document.querySelectorAll(".mySlides");
     if(slides.length > 0)
     {
-      var dots = document.querySelectorAll("dot");
+      var dots = document.querySelectorAll(".dot");
       for (var i = 0; i < slides.length; i++) {
          slides[i].style.display = "none";
       }
@@ -16,8 +16,9 @@ function showSlides() {
       }
 
       slides[slideIndex-1].style.display = "block";
+      console.log(dots)
       dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 1000);
+      setTimeout(showSlides, 8000);
     }
 }
 
