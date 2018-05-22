@@ -22,13 +22,10 @@ function showSlides() {
 }
 
 
-<<<<<<< HEAD
 
 
-//frivillig modal
-=======
+
 /*frivillig modal*/
->>>>>>> 77839c6f83d336698bc6fbfcbdbe0dde47856690
 
 /* Definering af modal*/
 var modal = document.querySelector('#myModal');
