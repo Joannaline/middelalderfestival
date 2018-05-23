@@ -283,28 +283,6 @@ height: 550px;
   margin: auto;
 }
 
-.active {
-  background-color: #717171;
-}
-
-
-/* Fading away */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 
 /*Timeline*/
