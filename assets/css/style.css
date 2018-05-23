@@ -616,6 +616,15 @@ body * {
   padding-top: 1%;
 }
 
+
+.close2 {
+  color: lightgrey;
+  float: right;
+  font-size: 20px;
+  padding-right: 2%;
+  padding-top: 1%;
+}
+
 .second-modal-content {
   background-color: white;
     font-family: 'Open Sans', sans-serif;
