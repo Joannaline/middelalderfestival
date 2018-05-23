@@ -52,7 +52,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     z-index: 1;
 }
@@ -445,7 +445,6 @@ body * {
   }
 }
 
-
 .imagestimeline {
   float: left;
   width: 29%;
@@ -540,8 +539,10 @@ body * {
 
 #myBtnone {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  padding: 10px 66px;
+  font-size: 20px;
+  padding: 20px 66px;
+  padding-left: 87px;
+  padding-right:87px;
   line-height: 100%;
   border-radius: 5px;
   color: white;
@@ -557,8 +558,8 @@ body * {
 
 #myBtntwo {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  padding: 10px 47px;
+  font-size: 20px;
+  padding: 20px 66px;
   line-height: 100%;
   border-radius: 5px;
   color: white;
@@ -842,7 +843,7 @@ color: #284B55;
 }
 .flexbox-omos-tekst h2 {
 margin: auto;
-padding-top: 8%;
+padding-top: 10%;
 padding-left: 8.6%;
 font-size: 50px;
 font-family: 'Open Sans', sans-serif;
