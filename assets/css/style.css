@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-   background-color: #DBDBDB;
+    background-color: #DBDBDB;
+
 }
 
 
@@ -739,7 +740,7 @@ body * {
 /*underside - program - Anette*/
 .cover {
   width: 100%;
-  height: 200px;
+  height: 220px;
 }
 .box-program {
   background-color: #DBDBDB;
@@ -833,26 +834,32 @@ color: #284B55;
 
 .flexbox-omos-tekst {
   flex: 1;
+
 }
+
 
 .flexbox-omos-billede {
   flex: 1;
 }
 .flexbox-omos-tekst h2 {
 margin: auto;
-padding-top: 5%;
-padding-left: 4.3%;
+padding-top: 8%;
+padding-left: 8.6%;
 font-size: 50px;
 font-family: 'Open Sans', sans-serif;
 color: #284B55;
 }
+
+
 .flexbox-omos-tekst p {
-  padding-left: 4.3%;
-  font-size: 13px;
+  padding-left: 8.6%;
+  margin-right: 8.6%;
+  font-size: 18px;
   font-family: 'Open Sans', sans-serif;
 }
 .img_omos {
-  width: 90%;
+  padding-right: 8.6%;
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 10px;
 }
