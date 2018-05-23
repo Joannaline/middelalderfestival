@@ -41,20 +41,11 @@ span.addEventListener("click", function(event) {
   modal.style.display = "none";
 });
 
-
-
 /* funktionen der gør at når man trykker på knappen så åbner modalen*/
 btn.onclick = function() {
     modal.style.display = "block";
 }
 
-
-/* når man trykker uden for modalen så lukker modalen ned*/
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 
 /*aktør-model*/
 
@@ -75,11 +66,4 @@ spann.addEventListener("click", function(event) {
 /* funktionen der gør at når man trykker på knappen så åbner modalen*/
 btnn.onclick = function() {
     modaln.style.display = "block";
-}
-
-/* når man trykker uden for modalen så lukker modalen ned*/
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modaln.style.display = "none";
-    }
 }
