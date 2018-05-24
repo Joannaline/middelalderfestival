@@ -3,9 +3,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #DBDBDB;
-
 }
-
 
 .text a {
   color: #ffffff;
@@ -170,7 +168,7 @@ top: 119px;
 
 .flex-container {
   display: flex;
-  align-items:  stretch;
+  align-items: stretch;
 }
 
 #bcolor {
@@ -854,4 +852,17 @@ color: #284B55;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 10px;
+}
+
+
+/*Styleguide*/
+
+.styleguidebox {
+  color: #284B55;
+  margin-left: 40px;
+}
+
+.styleguidebox h1 {
+  text-align: center;
+
 }
