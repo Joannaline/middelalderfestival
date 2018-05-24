@@ -71,6 +71,61 @@
       <img src="assets/images/logohvid.png" alt="logo">
     </a>
   </div>
+  <style>
+  .flex-menu {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .menu {
+      flex: 1;
+      background-color: #284B55;
+      overflow: hidden;
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .menu a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      z-index: 1;
+  }
+  .menu a:hover {
+      background-color: #ffffff;
+      color: #284B55;
+  }
+  .logolink a:hover {
+    color: white;
+    opacity: 0.7;
+    border-radius: 100%;
+  }
+  .logolink {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    height: 190px;
+    width: 100%;
+  }
+  .logolink a {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 70%;
+  }
+  .logolink img {
+    width: 100%;
+    object-fit: contain;
+  }
+  </style>
 </textarea>
 
 <h3>Footer</h3>
@@ -112,6 +167,63 @@
         </div>
     </div>
   </footer>
+<style>
+.flex-footer {
+ display: flex;
+}
+.footer {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  background-color: #284B55;
+  color: white;
+  line-height: 1%;
+  text-align: left;
+  justify-content: center;
+  padding-top: 2%;
+}
+.footerright {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  background-color: #284B55;
+  color: white;
+  line-height: 1%;
+  text-align: right;
+  justify-content: center;
+  padding-top: 2%;
+}
+.footer_center {
+  display: flex;
+  flex: 1;
+  background-color: #284B55;
+  color: white;
+  width: 100%;
+  line-height: 80%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1.2%;
+  font-family: 'Open Sans', sans-serif;
+}
+.text {
+  width: 50%;
+}
+.social_icon:hover {
+    opacity: 0.7;
+}
+.facebutton {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  width: 18%;
+}
+.instabutton {
+  background: #3399CC;
+  color: white;
+  border-radius: 50%;
+  width: 18%;
+}
+</style>
 </textarea>
 
 <h3>Flag, med sprog</h3>
@@ -127,6 +239,18 @@
        <img class="flagimg" src="assets/images/engelsk.png" alt="engelskflag">
   </a>
   </div>
+  <style>
+  .top-right {
+    position: absolute;
+    height: 8%;
+    width: 10%;
+    top: 12px;
+    right: 16px;
+  }
+  .flagimg {
+    width: 20%;
+  }
+  </style>
 </textarea>
 
 <h3>Headeren på undersiderne</h3>
@@ -134,7 +258,6 @@
 <br>
 <textarea rows="10" cols="90">
   <header class="undersiderheader">
-
 
        <div class="flex-menu">
          <div class="menu">
@@ -178,6 +301,75 @@
         </a>
           </div>
    </header>
+   <style>
+   .top-right {
+     position: absolute;
+     height: 8%;
+     width: 10%;
+     top: 12px;
+     right: 16px;
+   }
+   .flagimg {
+     width: 20%;
+   }
+   .flex-menu {
+     display: flex;
+     align-items: stretch;
+     position: absolute;
+     width: 100%;
+     margin-top: 70px;
+   }
+   .menu {
+       flex: 1;
+       background-color: #284B55;
+       overflow: hidden;
+       width: 100%;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .menu a {
+       float: left;
+       color: #ffffff;
+       text-align: center;
+       text-decoration: none;
+       font-size: 16px;
+       font-family: 'Open Sans', sans-serif;
+       z-index: 1;
+   }
+   .menu a:hover {
+       background-color: #ffffff;
+       color: #284B55;
+   }
+   .logolink a:hover {
+     color: white;
+     opacity: 0.7;
+     border-radius: 100%;
+   }
+   .logolink {
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     top: 30px;
+     height: 190px;
+     width: 100%;
+   }
+   .logolink a {
+     display: flex;
+     justify-content: center;
+     width: 10%;
+     height: 70%;
+   }
+   .logolink img {
+     width: 100%;
+     object-fit: contain;
+   }
+   .cover {
+     width: 100%;
+     height: 220px;
+   }
+   </style>
 </textarea>
 
 
@@ -199,8 +391,42 @@
        <div class="clear"></div>
     </div>
     </div>
+    <style>
+    .container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    .container::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: #5F737C;
+      border: 4px solid #5F737C;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .left {
+      left: 0;
+    }
+    .left::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      right: 30px;
+      border: medium solid white;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent #5F737C;
+    }
+    </style>
 </textarea>
-
 <h3>Container til tidslinjen (Højre side)</h3>
 <img src="assets/images/right.png" alt="tidslinjen" height="100" width="250">
 <br>
@@ -215,6 +441,41 @@
           <div class="clear"></div>
     </div>
   </div>
+  <style>
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #5F737C;
+    border: 4px solid #5F737C;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .right {
+    left: 0;
+  }
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #5F737C;
+  }
+  </style>
 </textarea>
 
 
@@ -259,6 +520,78 @@
   </div>
 </div>
 </div>
+<style>
+.ansøgning {
+  width: 100%;
+  color: white;
+  background-color: #284B55;
+  height: 100%;
+}
+.ansøgning h3 {
+  margin: auto;
+  padding-left: 8%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  font-size: 40px;
+}
+.ansøgning p {
+  padding-left: 8%;
+}
+.navne {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+}
+.fuldenavn{
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+}
+.adresse {
+  display: inline-block;
+  width: 73%;
+  padding: 12px 20px;
+}
+.by {
+  display: inline-block;
+  width: 26%;
+  padding: 12px 20px;
+}
+.checkboxes {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+  font-size: 16px;
+}
+.checkboxes-aktør {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+}
+.ansøgning h4 {
+  font-size: 26px;
+  margin-bottom: 2%;
+}
+.knap-ansøg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 15px 57px;
+  line-height: 100%;
+  border-radius: 5px;
+  color: #284B55;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: auto;
+}
+.knap-ansøg:hover {
+  background-color: #A76B46;;
+  color: white;
+}
+.knap-ansøg-box {
+  margin-bottom: 5%;
+}
+</style>
 </textarea>
 
 
@@ -270,6 +603,23 @@
   <div class="flexboxknttekst1">
     <p><b>Lone Dalgaard Mikkelsen</b><br><b>TLF:</b> +4500000000<br><b>Email:</b> lmik@varde.dk</p>
   </div>
+  <style>
+  .kntbilleder {
+    width: 60%;
+    padding-bottom: 15%;
+    border-radius: 100%;
+  }
+  .flexboxkontakt h2 {
+  margin: auto;
+  padding-top: 10%;
+  padding-left: 8.6%;
+  padding-bottom: 9%;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  flex: 1;
+  color: #284B55;
+  }
+  </style>
 </textarea>
 
 
@@ -283,6 +633,32 @@
       <a href="http://www.vardekommune.dk/sites/default/files/borger/kultur_og_fritid/program_middelalderfestival_koebstad_575_varde.pdf" target="_blank"><p><i>Download program here</i></p></a>
     </div>
     <img src="assets/images/program.png" alt="Middelalderfestival program, vestkysten" class="programbillede">
+    <style>
+    .box-program {
+      background-color: #DBDBDB;
+      margin: 0;
+      padding-bottom: 5%;
+    }
+    .box-program h2 {
+      margin: auto;
+    padding-top: 5%;
+    padding-left: 4.3%;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #284B55;
+    }
+    .box-program p {
+      padding-left: 4.3%;
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .box-program a {
+      color: #284B55;
+    }
+    .programbillede {
+      width: 100%;
+    }
+    </style>
 </textarea>
 
 
@@ -315,6 +691,75 @@
           </div>
     </div>
   </div>
+  <style>
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  #bcolor {
+    background-color: #BB876D;
+  }
+  #bruncolor {
+    background-color: #BB876D;
+  }
+  .box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #A76B46;
+    color: white;
+    width: 100%;
+    line-height: 100%;
+    height: 52vh;
+  }
+  .images {
+    width: 29%;
+  }
+  .textafter {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .textafter p {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #A76B46;
+  }
+  .box:hover .hover {
+    opacity: 1;
+  }
+  .hovercolor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #BB876D;
+  }
+  .box:hover .hovercolor {
+    opacity: 1;
+  }
+  </style>
 </textarea>
 
 <h3>Knapper</h3>
@@ -326,6 +771,28 @@
       Bliv frivillig
     </button>
   </div>
+  <style>
+  .flexboxknap {
+    flex-grow: 1;
+    text-align: center;
+  }
+  #myBtnone {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 20px 66px;
+    padding-left: 87px;
+    padding-right:87px;
+    line-height: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: #284B55;
+    border: none;
+  }
+  #myBtnone:hover {
+    background-color: white;
+    color: #284B55;
+  }
+  </style>
 </textarea>
 
 
@@ -337,15 +804,45 @@
 
   <a href="https://www.instagram.com/explore/tags/viinaturen/" target="_blank" class="fa social_icon"><img class="instabutton" src="assets/images/insta.png" alt="instagram icon"></a>
 </textarea>
-
+<br>
 <img src="assets/images/flagikoner.png" alt="Ikoner" height="100" width="200">
 <br>
 <textarea rows="10" cols="90">
-  
+<img class="flagimg" src="assets/images/dansk.png" alt="danskflag">
+
+<img class="flagimg" src="assets/images/tysk.png" alt="tyskflag">
+
+<img class="flagimg" src="assets/images/engelsk.png" alt="engelskflag">
+<style>
+.flagimg {
+  width: 20%;
+}
+</style>
 </textarea>
 
+<h3>Farvepalette</h3>
+<img src="assets/images/farver.png" alt="Ikoner" height="200" width="700">
 
 
+
+<h3>Typografi</h3>
+<br>
+<h4>Primær fonttype: Overskrifter</h4>
+<p>Riseofkingdom/Blod</p>
+<textarea rows="10" cols="90">
+font-family: 'riseofkingdom.ttf';
+</textarea>
+<br>
+<h4>Sekundær fonttype: Brødtekst</h4>
+<p>Open Sans/Sans-serif</p>
+
+<textarea rows="10" cols="90">
+
+font-family: 'Open Sans', sans-serif;
+</textarea>
+<br>
+<br>
+<br>
 
 
 
