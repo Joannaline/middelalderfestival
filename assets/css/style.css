@@ -81,7 +81,6 @@ body {
   justify-content: center;
   width: 10%;
   height: 70%;
-
 }
 
 
@@ -297,7 +296,7 @@ height: 550px;
 
 /*Timeline*/
 
-body * {
+ * {
   box-sizing: border-box;
   text-decoration: none;
 }
