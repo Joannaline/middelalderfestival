@@ -6,7 +6,7 @@ function showSlides() {
     var slides = document.querySelectorAll(".mySlides");
     if(slides.length > 0)
     {
-      var dots = document.querySelectorAll(".dot");
+      var dots = document.querySelectorAll(".ny");
       for (var i = 0; i < slides.length; i++) {
          slides[i].style.display = "none";
       }
